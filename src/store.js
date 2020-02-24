@@ -4,7 +4,7 @@ import thunk from 'redux-thunk';
 import rootReducer from './reducers';
 
 const initialState = {}; // the initalState is completely empty
-const middleware = [thunk]; // will help us with all the asynchronous actions
+const middleware = [thunk]; // will help with all the asynchronous actions
 
 const store = createStore(
     rootReducer,

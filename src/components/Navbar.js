@@ -4,9 +4,7 @@ import { connect } from 'react-redux';
 // ACTIONS
 import { getNumbers } from '../actions/getAction';
 import { Link } from 'react-router-dom';
-
 // import { cleanup } from '@testing-library/react';
-
 
 function Navbar(props) {
     console.log('Navbar props basketProps: ', props);

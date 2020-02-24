@@ -7,10 +7,8 @@ import { Provider } from 'react-redux';
 import store from './store.js';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-// import { Productlist } from './Productlist';
-// import { Basket } from './Basket';
-// import { BasketProvider } from './BasketContext';
-// import { ShoppingListContext } from './ShoppingListContext';
+
+// the var store is passed into the Provider
 
 function App() {
   return (
@@ -29,5 +27,3 @@ function App() {
 }
 
 export default App;
-
-// the var store is passed into the Provider
