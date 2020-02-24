@@ -92,7 +92,7 @@ function Basket({basketProps}) {
                     <form className="discount-absolut-form">
                         <div className="discount-absolut">
                             <h4>
-                                <label className="discount-code" for="discount-code">Enter your 20 EUR disount code here &nbsp;</label>
+                                <label className="discount-code" for="discount-code">Enter your 10 EUR disount code here &nbsp;</label>
                                 <input className="discount-code-absolut" type="text" placeholder="Enter your code" name="discount-code" />
                             </h4>
                         </div>
