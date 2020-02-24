@@ -57,11 +57,11 @@ function Basket({basketProps}) {
     });
 
     return (
-        <div className="container-products">
-            <div className="product-header">
+        <div className="container-basket">
+            <div className="basket-header">
                 <h2>My Basket &nbsp;🛒</h2>
             </div>
-            <div className="products">
+            <div className="basket-products">
                 { productsInBasket }
             </div>
             <div className="basket-price">
@@ -77,11 +77,11 @@ function Basket({basketProps}) {
                         <div className="discount-percent">
                             <h4>
                                 <label className="discount-code" for="discount-code">Enter your 20% disount code here &nbsp;</label>
-                                <input className="discount-code" type="text" placeholder="Enter your code" name="discount-code" />
+                                <input className="discount-code-percent" type="text" placeholder="Enter your code" name="discount-code" />
                             </h4>
                         </div>
                         <div className="discount-percent">
-                            <input className="submit" type="submit" name="submit" value="Submit"></input>
+                            <input className="submit-percent" type="submit" name="submit" value="Submit"></input>
                         </div>
                     </form>
                 </div>
@@ -93,11 +93,11 @@ function Basket({basketProps}) {
                         <div className="discount-absolut">
                             <h4>
                                 <label className="discount-code" for="discount-code">Enter your 20 EUR disount code here &nbsp;</label>
-                                <input className="discount-code" type="text" placeholder="Enter your code" name="discount-code" />
+                                <input className="discount-code-absolut" type="text" placeholder="Enter your code" name="discount-code" />
                             </h4>
                         </div>
                         <div className="discount-absolut">
-                            <input className="submit" type="submit" name="submit" value="Submit"></input>
+                            <input className="submit-absolut" type="submit" name="submit" value="Submit"></input>
                         </div>
                     </form>
                 </div>

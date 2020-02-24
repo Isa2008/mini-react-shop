@@ -52,46 +52,66 @@ li a {
 }
 
 /* PRODUCT */
-.container {
+.product-header {
+  text-align: center;
+  margin-top: 50px
+  /* margin: 50px; */
+}
+
+.container-items {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   padding-bottom: 40px;
   text-align: center;
-  align-items: center;  
-}
-
-.product-header {
-  text-align: center;
-  margin-bottom: 40px;
+  align-items: center;
 }
 
 .item {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   padding: 50px;
 }
 
 img{
-  width: 300px;
+  width: 250px;
+  height: 300px;
+}
+
+.item-title {
+  margin-bottom: 10px;
+}
+
+.item-description {
+  margin-bottom: 10px;
+}
+
+.item-price {
+  margin-bottom: 10px;
 }
 
 .addToBasket {
+  width: 150px;
+  height: 40px;
   text-decoration: none;
   background: pink;
   color: #282c34;
   border: 0px;
   border-radius: 25px;
   display: flex;
+  justify-content: center;
+  /* text-align: center; */
   padding: 10px 20px;
   cursor: pointer;
 }
 
 
 /* BASKET */
-.container-products {
+.container-basket {
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -103,12 +123,10 @@ img{
   margin-bottom: 40px;
 }
 
-.products {
-}
-
-.products img {
-  width: 100px;
-}
+.basket-products img {
+  width: 80px;
+  height: 100px;
+  }
 
 .product-item {
   width: 70vw;
@@ -153,16 +171,34 @@ img{
   margin-bottom: 5px;
 }
 
+.discount-code-percent {
+  border: 1px solid rgb(71, 129, 255);
+}
+
+.discount-code-absolut {
+  border: 1px solid rgb(28, 186, 125);
+}
+
 input {
   font-size: 13px;
-  border: 1px solid #282c34;
+  /* border: 1px solid #282c34; */
   border-radius: 25px;
   padding: 5px 10px;
 }
 
-.submit {
-  background: #282c34;
-  color: pink;
+.submit-percent {
+  background: rgb(71, 129, 255);
+  color: #fff;
+  font-size: 13px;
+  border: 0px;
+  border-radius: 25px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.submit-absolut{
+  background: rgb(28, 186, 125);
+  color: #fff;
   font-size: 13px;
   border: 0px;
   border-radius: 25px;

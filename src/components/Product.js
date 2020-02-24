@@ -24,44 +24,46 @@ const Product = (props) => {
     // }
 
     return(
-        <div className="container">
+        <div className="container-product">
             <div className="product-header">
                 <h2>Our best choices for you</h2>
             </div>
-            <div className="item">
-                <h2>White Sweater</h2>
-                <img src={whiteSweater} alt="Image of white sweater" />
-                <h5>Basic white sweater</h5>
-                <h3>44 EUR</h3>
-                <a onClick={() => props.addBasket('whiteSweater')} className="addToBasket" href="#">Add to basket</a>
-            </div>
-            <div className="item">
-                <h2>Black/White Sweater</h2>
-                <img src={blackWhiteHoodie} alt="Image of black and white hoodie" />
-                <h5>Black and white sweater</h5>
-                <h3>99 EUR</h3>
-                <a onClick={() => props.addBasket('blackWhiteHoodie')} className="addToBasket" href="#">Add to basket</a>
-            </div>
-            <div className="item">
-                <h2>Rainbow Caticorn</h2>
-                <img src={raimbowCaticorn} alt="Image of sweater with rainbow caticorn print" />
-                <h5>Sweater with rainbow caticorn print</h5>
-                <h3>77 EUR</h3>
-                <a onClick={() => props.addBasket('raimbowCaticorn')} className="addToBasket" href="#">Add to basket</a>
-            </div>
-            <div className="item">
-                <h2>Black Hoodie</h2>
-                <img src={blackHoodie} alt="Image of black hoodie" />
-                <h5>Black hoodie with a print</h5>
-                <h3>66 EUR</h3>
-                <a onClick={() => props.addBasket('blackHoodie')} className="addToBasket" href="#">Add to basket</a>
-            </div>
-            <div className="item">
-                <h2>Black Zip Hoodie</h2>
-                <img src={blackHoodieZipper} alt="imageBlackHoodie" />
-                <h5>Black hoodie with zipper and a print</h5>
-                <h3>55 EUR</h3>
-                <a onClick={() => props.addBasket('blackHoodieZipper')} className="addToBasket" href="#">Add to basket</a>
+            <div className="container-items">
+                <div className="item">
+                    <img src={whiteSweater} alt="whiteSweater" />
+                    <h2 className="item-title">White Sweater</h2>
+                    <h5 className="item-description">Basic white sweater</h5>
+                    <h3 className="item-price">44 EUR</h3>
+                    <a onClick={() => props.addBasket('whiteSweater')} className="addToBasket" href="#">Add to basket</a>
+                </div>
+                <div className="item">
+                    <img src={blackWhiteHoodie} alt="blackWhiteHoodie" />
+                    <h2 className="item-title">Black/White Sweater</h2>
+                    <h5 className="item-description">Black and white sweater</h5>
+                    <h3 className="item-price">99 EUR</h3>
+                    <a onClick={() => props.addBasket('blackWhiteHoodie')} className="addToBasket" href="#">Add to basket</a>
+                </div>
+                <div className="item">
+                    <img src={raimbowCaticorn} alt="sweaterRainbowCaticorn" />
+                    <h2 className="item-title">Rainbow Caticorn</h2>
+                    <h5 className="item-description">Sweater with rainbow caticorn print</h5>
+                    <h3 className="item-price">77 EUR</h3>
+                    <a onClick={() => props.addBasket('raimbowCaticorn')} className="addToBasket" href="#">Add to basket</a>
+                </div>
+                <div className="item">
+                    <img src={blackHoodie} alt="blackHoodie" />
+                    <h2 className="item-title">Black Hoodie</h2>
+                    <h5 className="item-description">Black hoodie with a print</h5>
+                    <h3 className="item-price">66 EUR</h3>
+                    <a onClick={() => props.addBasket('blackHoodie')} className="addToBasket" href="#">Add to basket</a>
+                </div>
+                <div className="item">
+                    <img src={blackHoodieZipper} alt="blackHoodie" />
+                    <h2 className="item-title">Black Zip Hoodie</h2>
+                    <h5 className="item-description">Black hoodie with zipper and a print</h5>
+                    <h3 className="item-price">55 EUR</h3>
+                    <a onClick={() => props.addBasket('blackHoodieZipper')} className="addToBasket" href="#">Add to basket</a>
+                </div>
             </div>
         </div>
     );  
