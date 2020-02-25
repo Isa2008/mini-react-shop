@@ -9,6 +9,7 @@ Shop products are displayed on home page and can be added to basket. At top navi
 What still needs to be done:
 Price display needs to be fixed. The images don't show up in the correct affiliation by adding its item to the basket. Improving shopping cart in basket by adding a delete item from basket button and adding buttons for more and less quantity per item. Further on I'd like to implement the checkout and payment.
 
+***
 
 ### Installation and Download
 
