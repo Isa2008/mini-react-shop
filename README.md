@@ -40,7 +40,7 @@ npm install redux react-redux redux-thunk redux-devtools-extension
 
 To be able to see what is going on with your Redux app in the extension, require the composeWithDevTools function, pass to it the the value returned from your call to applyMiddleWare, and pass the value it returns to createStore:
 
-Have a look at the file "store.js" for further information
+Have a look at the file "store.js" for further information.
 
 ### REDUX 2
 In file "App.js": \
@@ -55,11 +55,11 @@ Creating the Reducer: \
 In folder "src" create a new folder called "reducers" \
 In folder "reducers" create a new file called "index.js" \
 In folder "reducers" create a new file called "basketReducer.js"
-In "basketReducer.js" create the initialState for the basket: \
-You need to import the created basketReducer in "index.js" in folder "reducers":
+In "basketReducer.js" create the initialState for the basket. \
+You need to import the created basketReducer in "index.js" in folder "reducers".
 
 ### REDUX 4
-Creating a new folder inside of "src" called "actions" \
+Creating a new folder inside of "src" called "actions". \
 Inside folder "actions" create a file called "types.js" and a file called "addAction.js"
 
 ### REDUX 5
@@ -72,7 +72,7 @@ import { addBasket } from '../actions/addAction';
 To connect everything to each other, export connect with its first parameter as null and set the function "addBasket" to component Product: \
 export default connect(null, { addBasket })(Product);
 
-Then call the parameter props in the var Product and let it show up in the console: \
+Then call the parameter props in the var Product and let it show up in the console.
 
 ***
 
