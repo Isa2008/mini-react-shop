@@ -15,7 +15,7 @@ To start the project you need to have Node.js on your device.
 Downloas Node.js from its website: https://nodejs.org/
 Install Node.js.
 
-### REACT \
+### REACT
 The next step is to set up the React app
 You can create a new app by typing:
 create-react-app react-shop 
