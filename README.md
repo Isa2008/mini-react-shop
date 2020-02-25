@@ -2,6 +2,8 @@
 
 Basic shopping app using React Hooks, Redux, React Router DOM, JavaScript, CSS with Flexbox and HTML.
 
+Demo Link: https://minireactshop.herokuapp.com/
+
 Shop products are displayed on home page and can be added to basket. At top navigator you'll see the qauntity that is added. On basket page the shopping cart with all added items are listed with their quantities and total price for each. The total price of the shopping cart is being calculated and two potential disount prices, with 20% off price and 10 EUR off price.
 
 What still needs to be done:
