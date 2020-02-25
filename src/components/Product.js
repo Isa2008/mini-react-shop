@@ -26,7 +26,7 @@ const Product = (props) => {
     return(
         <div className="container-product">
             <div className="product-header">
-                <h2>Our best choices for you</h2>
+                <h2>Our best sweaters for you</h2>
             </div>
             <div className="container-items">
                 <div className="item">
@@ -53,14 +53,14 @@ const Product = (props) => {
                 <div className="item">
                     <img src={blackHoodie} alt="blackHoodie" />
                     <h2 className="item-title">Black Hoodie</h2>
-                    <h5 className="item-description">Black hoodie with a print</h5>
+                    <h5 className="item-description">Black hoodie with print</h5>
                     <h3 className="item-price">66 EUR</h3>
                     <a onClick={() => props.addBasket('blackHoodie')} className="addToBasket" href="#">Add to basket</a>
                 </div>
                 <div className="item">
                     <img src={blackHoodieZipper} alt="blackHoodie" />
                     <h2 className="item-title">Black Zip Hoodie</h2>
-                    <h5 className="item-description">Black hoodie with zipper and a print</h5>
+                    <h5 className="item-description">Black hoodie with zipper</h5>
                     <h3 className="item-price">55 EUR</h3>
                     <a onClick={() => props.addBasket('blackHoodieZipper')} className="addToBasket" href="#">Add to basket</a>
                 </div>
