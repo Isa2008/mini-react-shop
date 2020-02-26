@@ -14,13 +14,15 @@ Shop products are displayed on home page and can be added to basket. At top navi
 What still needs to be done:
 Price display needs to be fixed. The images don't show up in the correct affiliation by adding its item to the basket. Improving shopping cart in basket by adding a delete item from basket button and adding buttons for more and less quantity per item. Further on I'd like to implement the checkout and payment and a client registration.
 
-### INSTALLATION
+***
+
+## INSTALLATION
 
 ### NODE.js
 To start the project you need to have Node.js on your device.
 Downloas Node.js from its website: https://nodejs.org/
-Install Node.js. \
-
+Install Node.js.
+\
 
 ### REACT
 The next step is to set up the React app
@@ -41,7 +43,7 @@ In folder "src" create a folder called "components" with three files:\
 Navbar.js, Product.js and Basket.js.\
 Navbar.js is our top Navbar. Navbar has the links to our Shop with our shop products, and to Basket with a shopping cart listing all items that are added to basket.
 
-\
+
 ### REDUX 
 ##### 1
 Installing Redux, redux-thunk, redux-devtools-extension package into your project: \
@@ -87,7 +89,7 @@ To connect everything to each other, export connect with its first parameter as 
 
 Then call the parameter props in the var Product and let it show up in the console.
 
-\
+
 ### REACT ROUTER DOM
 Installing React Router DOM: \
 npm i react-router-dom
