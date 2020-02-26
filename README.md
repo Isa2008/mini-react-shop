@@ -2,9 +2,11 @@
 
 Starting point of a basic shopping app.
 
-### TECH STACK: \ React Hooks, Redux, React Router DOM, JavaScript, CSS with Flexbox and HTML.
+### TECH STACK:
+React Hooks, Redux, React Router DOM, JavaScript, CSS with Flexbox and HTML.
 
-### DEMO: \ https://minireactshop.herokuapp.com/
+### DEMO:
+https://minireactshop.herokuapp.com/
 
 ### DESCRIPTION
 Shop products are displayed on home page and can be added to basket. At top navigator you'll see the qauntity that is added to basket. On basket page the shopping cart with added items are listed with their quantities and total price for each. The total price of all items inside the shopping cart is being calculated. Further on there are two potential disount prices, one with 20% disount and another with a 10 EUR discount on the total price.
@@ -17,9 +19,9 @@ Price display needs to be fixed. The images don't show up in the correct affilia
 ### NODE.js
 To start the project you need to have Node.js on your device.
 Downloas Node.js from its website: https://nodejs.org/
-Install Node.js.
+Install Node.js. \
 
-\
+
 ### REACT
 The next step is to set up the React app
 You can create a new app by typing: \
@@ -32,7 +34,7 @@ npm install -g create-react-app
 Then you can start running the app on localhost:3000 by typing: \
 npm start
 
-\
+
 ### START 
 The file "App.js" inside folder "src" is the starting and connecting point for all components and our app.
 In folder "src" create a folder called "components" with three files:\
