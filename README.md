@@ -8,10 +8,10 @@ React Hooks, Redux, React Router DOM, JavaScript, CSS with Flexbox and HTML.
 ### DEMO:
 https://minireactshop.herokuapp.com/
 
-### DESCRIPTION
+### DESCRIPTION:
 Shop products are displayed on home page and can be added to basket. At top navigator you'll see the qauntity that is added to basket. On basket page the shopping cart with added items are listed with their quantities and total price for each. The total price of all items inside the shopping cart is being calculated. Further on there are two potential disount prices, one with 20% disount and another with a 10 EUR discount on the total price.
 
-### FUTURE FEATURES
+### FUTURE FEATURES:
 Price display needs to be fixed.\
 The images don't show up in the correct affiliation by adding its item to the basket.\
 Improving shopping cart in basket by adding a delete item from basket button and adding buttons for more and less quantity per item.\
