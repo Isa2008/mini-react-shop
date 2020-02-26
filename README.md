@@ -85,5 +85,6 @@ npm i react-router-dom
 
 The React Router DOM gives us the possibility to switch within pages in our single page app without refreshing the browser.
 In App.js we're routing the pathes to the project pages and their urls: \
-Route exact path="/" component={Product} \
-Route path="/basket" component={Basket}
+
+    Route exact path="/" component={Product} \
+    Route path="/basket" component={Basket}
