@@ -48,49 +48,8 @@ Navbar.js is our top Navbar. Navbar has the links to our Shop with our shop prod
 
 
 ### REDUX 
-##### 1
 Installing Redux, redux-thunk, redux-devtools-extension package into your project: \
 npm install redux react-redux redux-thunk redux-devtools-extension
-
-To be able to see what is going on with your Redux app in the extension, require the composeWithDevTools function, pass to it the the value returned from your call to applyMiddleWare, and pass the value it returns to createStore:
-
-Have a look at the file "store.js" for further information.
-
-##### 2
-In file "App.js":
-
-    import { Provider } from 'react-redux';
-    import store from './store.js';
-
-All our components should be wrapped inside the Provider within the var store. \
-The var store that is imported from "store.js" is passed into the Provider.
-
-##### 3
-Creating the Reducer: \
-In folder "src" create a new folder called "reducers" \
-In folder "reducers" create a new file called "index.js" \
-In folder "reducers" create a new file called "basketReducer.js"
-In "basketReducer.js" create the initialState for the basket. \
-You need to import the created basketReducer in "index.js" in folder "reducers".
-
-##### 4
-Creating a new folder inside of "src" called "actions". \
-Inside folder "actions" create a file called "types.js" and a file called "addAction.js"
-
-##### 5
-In folder "components" in file "Product.js" connect Redux with the components:
-
-    import { connect } from 'react-redux';
-
-Import the function "addBasket":
-
-    import { addBasket } from '../actions/addAction';
-
-To connect everything to each other, export connect with its first parameter as null and set the function "addBasket" to component Product:
-
-    export default connect(null, { addBasket })(Product);
-
-Then call the parameter props in the var Product and let it show up in the console.
 
 
 ### REACT ROUTER DOM
@@ -98,7 +57,4 @@ Installing React Router DOM: \
 npm i react-router-dom
 
 The React Router DOM gives us the possibility to switch within pages in our single page app without refreshing the browser.
-In App.js we're routing the pathes to the project pages and their urls:
-
-    Route exact path="/" component={Product}
-    Route path="/basket" component={Basket}
+In App.js we're routing the pathes to the project pages and their urls.
