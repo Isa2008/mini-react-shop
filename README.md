@@ -83,7 +83,7 @@ Then call the parameter props in the var Product and let it show up in the conso
 Installing React Router DOM: \
 npm i react-router-dom
 
-The React Router DOM gives us the possibility to switch to pages withing the single page app without refreshing the browser.
+The React Router DOM gives us the possibility to switch within pages in our single page app without refreshing the browser.
 In App.js we're routing the pathes to the project pages and their url: \
 Route exact path="/" component={Product} \
 Route path="/basket" component={Basket}
