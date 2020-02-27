@@ -19,7 +19,7 @@ Further on I'd like to implement the checkout and payment and a client registrat
 
 ***
 
-### INSTALLATION
+## INSTALLATION
 
 ### NODE.js
 To start the project you need to have Node.js on your device.
