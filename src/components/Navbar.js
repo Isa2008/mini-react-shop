@@ -16,7 +16,9 @@ function Navbar(props) {
     return(
         <header className="App-header">
             <nav>
-                <h1>React Shop</h1>
+                <h1 className="nav-title">
+                    <Link to="/">React Shop</Link>
+                </h1>
                 <ul>
                   <li><Link to="/">Shop</Link></li>
                   {/* <li><Link to="/about">About</Link></li> */}
